@@ -30,6 +30,9 @@ public class FlashlightController : MonoBehaviour
             {
                 audioSource.PlayOneShot(flashlightStateSound);
             }
+        } else if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
         }
 
         

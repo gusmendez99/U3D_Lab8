@@ -284,7 +284,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             if (showBox)
             {
-                GUI.Box(new Rect(Screen.width / 2 - 100, Screen.height / 2 - 50, 200, 200), itemForward);
+                GUI.Box(new Rect(Screen.width / 2 - 100, Screen.height / 2 - 50, 300, 150), itemForward);
             }
 
         }
