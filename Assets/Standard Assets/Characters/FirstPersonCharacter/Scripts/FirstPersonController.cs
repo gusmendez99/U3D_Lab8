@@ -42,6 +42,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
 
+        //For items on scene
+        private bool showBox = false;
+        private string itemForward = "";
+
+
         // Use this for initialization
         private void Start()
         {
@@ -81,6 +86,25 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+
+
+            showBox = false;
+
+            RaycastHit hit;
+            Ray ray = m_Camera.ScreenPointToRay(Input.mousePosition);
+
+            if (Physics.Raycast(ray, out hit))
+            {
+                Debug.Log("Has item forward: " + hit.collider.name);
+                if (hit.collider.gameObject.tag.Equals("Table") || hit.collider.gameObject.tag.Equals("Chair") || hit.collider.gameObject.tag.Equals("Bed")
+                    || hit.collider.gameObject.tag.Equals("Computer") || hit.collider.gameObject.tag.Equals("Couch"))
+                {
+                    showBox = true;
+                    itemForward = hit.collider.tag;
+                }
+            }
+
+
         }
 
 
@@ -255,5 +279,18 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
             body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
         }
+
+        void OnGUI()
+        {
+            if (showBox)
+            {
+                GUI.Box(new Rect(Screen.width / 2 - 100, Screen.height / 2 - 50, 200, 200), itemForward);
+            }
+
+        }
     }
+
+
+    
+
 }

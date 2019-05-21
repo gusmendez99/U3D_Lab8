@@ -442,7 +442,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 300336944}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.8, y: -2.5, z: -6.4}
+  m_LocalPosition: {x: 6.8, y: -1.57, z: -6.4}
   m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 0}
@@ -817,6 +817,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7925631868559607081, guid: 5e9e851c0e142814dac026a256ba2ac0,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7925631868559607081, guid: 5e9e851c0e142814dac026a256ba2ac0,
+        type: 3}
+      propertyPath: m_DrawHalo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7925631868559607081, guid: 5e9e851c0e142814dac026a256ba2ac0,
+        type: 3}
+      propertyPath: m_Range
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
 --- !u!1 &1122229988
@@ -1049,6 +1064,390 @@ PrefabInstance:
       propertyPath: m_LocalRotation.w
       value: 0.005767053
       objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 100086, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100124, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100134, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Couch
+      objectReference: {fileID: 0}
+    - target: {fileID: 100144, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100160, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 100326, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 100370, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100502, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100512, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100516, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100528, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100564, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100650, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100670, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Computer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100694, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 21581810, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21526186, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 100018, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100042, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100044, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100046, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100052, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100054, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 100056, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 100062, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100070, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 100072, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100082, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100084, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100094, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100112, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 100118, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100122, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 100138, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100146, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100162, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100176, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100180, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100192, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100200, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Couch
+      objectReference: {fileID: 0}
+    - target: {fileID: 100216, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Couch
+      objectReference: {fileID: 0}
+    - target: {fileID: 100236, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100242, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100246, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100252, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100254, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100268, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100290, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100298, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100308, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Computer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100314, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100320, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100336, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100358, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Computer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100366, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 100376, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100388, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Couch
+      objectReference: {fileID: 0}
+    - target: {fileID: 100390, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100392, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100420, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100426, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100474, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100494, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 100496, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100498, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 100500, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 100522, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100538, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100544, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100546, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100550, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100552, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100566, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100568, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100582, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100594, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100598, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100618, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100620, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 100630, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100642, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100648, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100652, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100660, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Computer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100680, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100682, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100684, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100686, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100688, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100690, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100692, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2e7921838a66884990fc3afdff68c2e, type: 3}
 --- !u!1001 &1287890012
@@ -1098,6 +1497,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d5a7d7a82d1f9b24fa26c2ae873fe8ab, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: d5a7d7a82d1f9b24fa26c2ae873fe8ab, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -1109,6 +1512,22 @@ PrefabInstance:
     - target: {fileID: 10800000, guid: d5a7d7a82d1f9b24fa26c2ae873fe8ab, type: 3}
       propertyPath: m_Lightmapping
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800006, guid: d5a7d7a82d1f9b24fa26c2ae873fe8ab, type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800006, guid: d5a7d7a82d1f9b24fa26c2ae873fe8ab, type: 3}
+      propertyPath: m_Shadows.m_Strength
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800022, guid: d5a7d7a82d1f9b24fa26c2ae873fe8ab, type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800022, guid: d5a7d7a82d1f9b24fa26c2ae873fe8ab, type: 3}
+      propertyPath: m_Shadows.m_Strength
+      value: 0.36
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5a7d7a82d1f9b24fa26c2ae873fe8ab, type: 3}
@@ -1253,6 +1672,122 @@ LensFlare:
     serializedVersion: 2
     m_Bits: 6
   m_Directional: 0
+--- !u!1 &1700297763 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7925631868570404873, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1102693735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1700297765
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700297763}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 20d1866620d914b4eaac3e0ccf3d625d, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1700297766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700297763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c986fe92f2bfc546aa455371e79f8f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashlightStateSound: {fileID: 8300000, guid: 20d1866620d914b4eaac3e0ccf3d625d,
+    type: 3}
 --- !u!1 &1834203557
 GameObject:
   m_ObjectHideFlags: 0
